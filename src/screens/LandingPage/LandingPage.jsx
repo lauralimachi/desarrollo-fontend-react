@@ -30,7 +30,7 @@ const LandingPage = () => {
                 <h2>Recursos Adicionales</h2>
                 <hr />
                 <p>Para profundizar en los temas cubietos, consulta los siguientes recursos</p>
-                <footer >@ 2024 Modulo 7. USIP.</footer>
+                <footer >@ 2024 Modulo 7. USIP. Estudiante: Ericka Judith Laura Limachi</footer>
             </div>
         </>
 
