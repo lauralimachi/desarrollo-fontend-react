@@ -31,6 +31,10 @@ const routes = createBrowserRouter([
                 path: '/landingpage', 
                 element: <LandingPage />,
             },
+            {
+                path: '*', 
+                element: <Navigate to="/landingpage" replace />,
+            },
         ]
     }
 ],
