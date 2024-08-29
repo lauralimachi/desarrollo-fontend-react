@@ -4,6 +4,7 @@ const initialState = {
     formData: {
         username: '',
         email: '',
+        password:'',
     },
 };
 
@@ -18,6 +19,7 @@ const formReducer = (state = initialState, action) => {
                 }
             }
         }
+        
         default:
             return state;
     }
